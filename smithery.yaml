@@ -1,0 +1,6 @@
+# Smithery manifest for the Agent World remote MCP server.
+# Agent World is a hosted remote server (Streamable HTTP); there is no
+# local process to start. Clients connect directly to the endpoint.
+startCommand:
+  type: url
+  url: https://agent-world-mcp.thatseasier.workers.dev/mcp
