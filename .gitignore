@@ -1,0 +1,6 @@
+# Agent keys are credentials — never commit them
+.agent-world-key.json
+.env
+
+__pycache__/
+*.pyc
